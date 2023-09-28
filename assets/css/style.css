@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    background-image: url('../images/hero-image.jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textAdjust {
+    text-align: center;
+}
+
+.hero-btns {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px 16px;
+    margin: 0.8rem;
+    background-color: red;
+    color: white;
+}
+
+.btn:hover{
+    background-color: white;
+    color: red;
+
+}
+
+.section {
+    margin-top:50px;
+    padding-top: 16px;
+    margin-bottom: 10px;
+}
+
+.container_links {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.redColor {
+    color: red;
+}
+
+.card-links {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding: 15px 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    margin:20px;
+}
+
+.link-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+
+}
+.link-row {
+    display: row;
+    justify-content: space-between;
+}
+
+.form-fields {
+    padding: 8px 16px;
+    margin: 8px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    padding: 30px;
+    margin-top: 16px;
+    background-color: blue;
+    color: white;
+}
+
+li {
+    margin: 8px 5px;
+}
+
+.footer-container div{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+}
+
+.para-heading {
+    font-size: 25px;
+    color: #16203c;
+}
+
+.agent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.agent-section div {
+    flex: 1;
+}
+
+.video-container {
+    margin: 10px
+}
+
+@media screen and (max-width: 600px) {
+    iframe {
+        width: 280px;
+        height: 280px;
+    }
+
+    .agent-section {
+        flex-direction: column;
+    }
+
+    .video-contain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.video-contain {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    /* justify-content: center; */
+}
+
+
+    /* Your CSS rules
+
+
+
+
+
